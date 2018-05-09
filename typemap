@@ -22,6 +22,7 @@ TypeMap:
 	binary+S2w //....dylib
 	binary+S2w //....stub
 	binary+S2w //....ipa
+	binary+S2w //....exp
 	binary //....bmp
 	text+w //....config
 	text+w //....target
