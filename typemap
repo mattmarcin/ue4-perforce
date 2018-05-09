@@ -1,0 +1,41 @@
+# Perforce File Type Mapping Specifications.
+#
+#  TypeMap:	a list of filetype mappings; one per line.
+#		Each line has two elements:
+#
+#  		Filetype: The filetype to use on 'p4 add'.
+#
+#  		Path:     File pattern which will use this filetype.
+#
+# See 'p4 help typemap' for more information.
+
+TypeMap:
+	binary+S2w //....exe
+	binary+S2w //....app
+	binary+S2w //....self
+	binary+S2w //....dll
+	binary+S2w //....lib
+	binary+S2w //....app
+	binary+S2w //....dylib
+	binary+S2w //....stub
+	binary+S2w //....ipa
+	binary //....bmp
+	text+w //....config
+	text+w //....target
+	text+w //....target.xml
+	text+w //....xml
+  text+w //....modules
+  text+w //....xml.References
+	text //....ini
+	text //....config
+	text //....cpp
+	text //....h
+	text //....c
+	text //....cs
+	text //....m
+	text //....mm
+	text //....py
+	binary+l //....uasset
+	binary+l //....umap
+	binary+l //....upk
+	binary+l //....udk
