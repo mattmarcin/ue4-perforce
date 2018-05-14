@@ -9,9 +9,6 @@
 #
 # See 'p4 help typemap' for more information.
 
-# You can adjust the +S2w to +S#w, # being the number of revision to keep.
-# These binaries generally don't need a lot of revisions saved.
-
 TypeMap:
 	binary+S2w //....exe
 	binary+S2w //....app
@@ -22,15 +19,15 @@ TypeMap:
 	binary+S2w //....dylib
 	binary+S2w //....stub
 	binary+S2w //....ipa
-	binary+S2w //....exp
 	binary //....bmp
 	text+w //....config
 	text+w //....target
 	text+w //....target.xml
 	text+w //....xml
-  	text+w //....modules
+	text+w //....modules
 	text+w //....version
-  	text+w //....xml.References
+	text+w //....xml.References
+	text+w //....plist
 	text //....ini
 	text //....config
 	text //....cpp
