@@ -7,6 +7,7 @@ LocalBuilds/
 *.opensdf
 *.sdf
 *.tmp
+*.mdb
 obj/
 *.vcxproj
 *.sln
