@@ -1,6 +1,6 @@
-# ue4-perforce
+# ue4-ue5-perforce
 
-Finding a comprehensive perforce typemap and p4ignore for Unreal Engine 4 games was a pain so I'm sharing what we came up with.
+Finding a comprehensive perforce typemap and p4ignore for Unreal Engine 4/5 games was a pain so I'm sharing what we came up with.
 
 This configuration is for a source built version of UE4 with an included Project
 
