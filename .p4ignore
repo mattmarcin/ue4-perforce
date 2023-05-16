@@ -1,5 +1,5 @@
-Saved/
-LocalBuilds/
+/Saved/
+/LocalBuilds/
 *.csproj.*
 .vs/*
 *.pdb
@@ -8,24 +8,30 @@ LocalBuilds/
 *.sdf
 *.tmp
 *.mdb
-obj/
+*/obj/*
 *.vcxproj
 *.sln
 *-Debug.*
-FileOpenOrder/
+/FileOpenOrder/
 *.xcworkspace
 *.xcodeproj
 ./Makefile
 ./CMakeLists.txt
 .ue4dependencies
-Samples/*
-FeaturePacks/*
-Templates/*
-Engine/Documentation/*
+/Samples/*
+/FeaturePacks/*
+/Templates/*
+/Engine/Documentation/*
+.git/*
+*.csprojAssemblyReference.cache
+
+#Linux Debug Files
+*.sym
+*.debug
 
 # Engine intermediates
-Engine/Intermediate/*
-Intermediate/
+/Engine/Intermediate/*
+/Intermediate/*
 
 # Intermediate folders for programs should not be checked in
 Engine\Programs\*\Intermediate\*
@@ -55,7 +61,7 @@ p4config.txt
 # Ignore crash reports
 crashinfo--*
 
-# Ignore linux project files
+# Ignore linux project files.
 *.user
 *.pro
 *.pri
