@@ -2,7 +2,7 @@
 
 Finding a comprehensive perforce typemap and p4ignore for Unreal Engine 4/5 games was a pain so I'm sharing what we came up with.
 
-This configuration is for a source built version of UE4 with an included Project
+This configuration is for a source built version of UE4/UE5 with an included Project
 
 This setup allows both Mac and PC to compile builds without checking anything out from perforce.
 
