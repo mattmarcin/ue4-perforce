@@ -1,5 +1,5 @@
-/Saved/
-/LocalBuilds/
+Saved/
+LocalBuilds/
 *.csproj.*
 .vs/*
 *.pdb
@@ -18,10 +18,9 @@
 ./Makefile
 ./CMakeLists.txt
 .ue4dependencies
-/Samples/*
-/FeaturePacks/*
-/Templates/*
-/Engine/Documentation/*
+Samples/*
+FeaturePacks/*
+Engine/Documentation/*
 .git/*
 *.csprojAssemblyReference.cache
 
@@ -30,8 +29,8 @@
 *.debug
 
 # Engine intermediates
-/Engine/Intermediate/*
-/Intermediate/*
+Engine/Intermediate/*
+Intermediate/*
 
 # Intermediate folders for programs should not be checked in
 Engine\Programs\*\Intermediate\*
